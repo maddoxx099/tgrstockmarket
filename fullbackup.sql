@@ -56,56 +56,79 @@ SET default_table_access_method = heap;
 
 CREATE TABLE public.stockvalues (
     id integer NOT NULL,
-    ashaf numeric(5,2) DEFAULT 0,
-    jukusuke numeric(5,2) DEFAULT 0,
-    ryuuichi numeric(5,2) DEFAULT 0,
-    asuka numeric(5,2) DEFAULT 0,
-    noroi numeric(5,2) DEFAULT 0,
-    kenji numeric(5,2) DEFAULT 0,
-    asura numeric(5,2) DEFAULT 0,
-    tashiro numeric(5,2) DEFAULT 0,
-    tadashi numeric(5,2) DEFAULT 0,
-    seina numeric(5,2) DEFAULT 0,
-    kaze numeric(5,2) DEFAULT 0,
-    ishika numeric(5,2) DEFAULT 0,
-    akane numeric(5,2) DEFAULT 0,
-    sado numeric(5,2) DEFAULT 0,
-    alaric numeric(5,2) DEFAULT 0,
-    gorou numeric(5,2) DEFAULT 0,
-    kaiaku numeric(5,2) DEFAULT 0,
-    arata numeric(5,2) DEFAULT 0,
-    chiyomi numeric(5,2) DEFAULT 0,
-    kuba numeric(5,2) DEFAULT 0,
-    touka numeric(5,2) DEFAULT 0,
-    abo numeric(5,2) DEFAULT 0,
-    kazuya numeric(5,2) DEFAULT 0,
-    hanako numeric(5,2) DEFAULT 0,
-    lastchapter integer DEFAULT 0,
-    higeki numeric(5,2) DEFAULT 0,
-    isamu numeric(5,2) DEFAULT 0,
-    enki numeric(5,2) DEFAULT 20,
-    yuu numeric(5,2) DEFAULT 20,
-    ue numeric(5,2) DEFAULT 20,
-    shiro numeric(5,2) DEFAULT 20,
-    shukei numeric(5,2) DEFAULT 20,
-    hokama numeric(5,2) DEFAULT 20,
-    wei numeric(5,2) DEFAULT 20,
-    sanagi numeric(5,2) DEFAULT 20,
-    meatloaf numeric(5,2) DEFAULT 20,
-    amelie numeric(5,2) DEFAULT 20,
-    shihai numeric(5,2) DEFAULT 10,
-    yasu numeric(5,2) DEFAULT 20,
-    hirioki numeric(5,2) DEFAULT 20,
-    renzo numeric(5,2) DEFAULT 20,
-    kota numeric(5,2) DEFAULT 20,
-    itachi numeric(5,2) DEFAULT 20,
-    hikari numeric(5,2) DEFAULT 20,
-    sora numeric(5,2) DEFAULT 20,
-    kairijo numeric(5,2) DEFAULT 20,
-    aki numeric(5,2) DEFAULT 20,
-    toru numeric(5,2) DEFAULT 20,
-    aoyama numeric(5,2) DEFAULT 20,
-    dai numeric(5,2) DEFAULT 20
+    r2_d2 numeric(5,2) DEFAULT 76,
+    aden_skirata numeric(5,2) DEFAULT 59,
+    lesser_stormtrooper numeric(5,2) DEFAULT 4,
+    ysanne_isard numeric(5,2) DEFAULT 14,
+    victorie_talik numeric(5,2) DEFAULT 60,
+    eleventh_brother numeric(5,2) DEFAULT 40,
+    darth_vader numeric(5,2) DEFAULT 80,
+    chewbacca numeric(5,2) DEFAULT 68,
+    sergeant_kreel numeric(5,2) DEFAULT 64,
+    pt_1178 numeric(5,2) DEFAULT 46,
+    unknown_valtorax_character numeric(5,2) DEFAULT 48,
+    third_brother numeric(5,2) DEFAULT 32,
+    second_sister numeric(5,2) DEFAULT 32,
+    fixer numeric(5,2) DEFAULT 48,
+    thirteenth_brother numeric(5,2) DEFAULT 8,
+    dexter_jettster numeric(5,2) DEFAULT 60,
+    cyan numeric(5,2) DEFAULT 40,
+    grand_admiral_piett numeric(5,2) DEFAULT 48,
+    unknown_stemmedaxis06_character numeric(5,2) DEFAULT 78,
+    fifth_brother numeric(5,2) DEFAULT 40,
+    maze numeric(5,2) DEFAULT 36,
+    rav_bralor numeric(5,2) DEFAULT 44,
+    epsilon numeric(5,2) DEFAULT 60,
+    zeb numeric(5,2) DEFAULT 48,
+    agent66 numeric(5,2) DEFAULT 42,
+    wedge_antilles numeric(5,2) DEFAULT 60,
+    cipher9 numeric(5,2) DEFAULT 46,
+    thrawn numeric(5,2) DEFAULT 68,
+    corran_horn numeric(5,2) DEFAULT 51,
+    agent_kallus numeric(5,2) DEFAULT 48,
+    sixth_sister numeric(5,2) DEFAULT 40,
+    chopper numeric(5,2) DEFAULT 66,
+    han_solo numeric(5,2) DEFAULT 72,
+    ackbar numeric(5,2) DEFAULT 68,
+    grand_inquisitor numeric(5,2) DEFAULT 62,
+    rex numeric(5,2) DEFAULT 64,
+    boba_fett numeric(5,2) DEFAULT 61,
+    sabe_nabierre numeric(5,2) DEFAULT 52,
+    luke_skywalker numeric(5,2) DEFAULT 79,
+    c3po numeric(5,2) DEFAULT 55,
+    airen_cracken numeric(5,2) DEFAULT 44,
+    strzalk numeric(5,2) DEFAULT 48,
+    ninth_sister numeric(5,2) DEFAULT 40,
+    ig_88b numeric(5,2) DEFAULT 44,
+    garrick_versio numeric(5,2) DEFAULT 38,
+    axis numeric(5,2) DEFAULT 74,
+    gideon numeric(5,2) DEFAULT 46,
+    fenn_shysa numeric(5,2) DEFAULT 30,
+    boss numeric(5,2) DEFAULT 48,
+    sabine_wren numeric(5,2) DEFAULT 50,
+    mara_jade numeric(5,2) DEFAULT 52,
+    alpha_17 numeric(5,2) DEFAULT 34,
+    omega numeric(5,2) DEFAULT 40,
+    kal_skirata numeric(5,2) DEFAULT 26,
+    gallius_rex numeric(5,2) DEFAULT 40,
+    twelfth_brother numeric(5,2) DEFAULT 48,
+    eli_vanto numeric(5,2) DEFAULT 41,
+    saw_garrera numeric(5,2) DEFAULT 46,
+    wolffe numeric(5,2) DEFAULT 32,
+    lando_calrissian numeric(5,2) DEFAULT 74,
+    la_mereel numeric(5,2) DEFAULT 66,
+    kyle_katarn numeric(5,2) DEFAULT 61,
+    carnor_jax numeric(5,2) DEFAULT 44,
+    mission_vao numeric(5,2) DEFAULT 42,
+    x2 numeric(5,2) DEFAULT 40,
+    seventh_sister numeric(5,2) DEFAULT 40,
+    jan_ors numeric(5,2) DEFAULT 42,
+    scorch numeric(5,2) DEFAULT 48,
+    lumiya numeric(5,2) DEFAULT 8,
+    rahm_kota numeric(5,2) DEFAULT 51,
+    pellaeon numeric(5,2) DEFAULT 48,
+    leia_organa numeric(5,2) DEFAULT 72,
+    lastchapter integer DEFAULT 9
 );
 
 
@@ -144,56 +167,80 @@ CREATE TABLE public.users (
     money numeric(100,2) DEFAULT 1000,
     totalstockvalue numeric(100,2) DEFAULT 1000,
     profit numeric(100,2) DEFAULT 0,
-    ashaf integer DEFAULT 0,
-    jukusuke integer DEFAULT 0,
-    ryuuichi integer DEFAULT 0,
-    asuka integer DEFAULT 0,
-    noroi integer DEFAULT 0,
-    kenji integer DEFAULT 0,
-    asura integer DEFAULT 0,
-    tashiro integer DEFAULT 0,
-    tadashi integer DEFAULT 0,
-    seina integer DEFAULT 0,
-    kaze integer DEFAULT 0,
-    ishika integer DEFAULT 0,
-    akane integer DEFAULT 0,
-    sado integer DEFAULT 0,
-    alaric integer DEFAULT 0,
-    gorou integer DEFAULT 0,
-    kaiaku integer DEFAULT 0,
-    arata integer DEFAULT 0,
-    chiyomi integer DEFAULT 0,
-    kuba integer DEFAULT 0,
-    touka integer DEFAULT 0,
-    abo integer DEFAULT 0,
-    kazuya integer DEFAULT 0,
-    hanako integer DEFAULT 0,
-    higeki integer DEFAULT 0,
-    isamu integer DEFAULT 0,
-    enki integer DEFAULT 0,
-    tempprofit numeric(100,2) DEFAULT 0,
-    yuu integer DEFAULT 0,
-    ue integer DEFAULT 0,
-    shiro integer DEFAULT 0,
-    shukei integer DEFAULT 0,
-    hokama integer DEFAULT 0,
-    wei integer DEFAULT 0,
-    sanagi integer DEFAULT 0,
-    meatloaf integer DEFAULT 0,
-    amelie integer DEFAULT 0,
-    shihai integer DEFAULT 0,
-    yasu integer DEFAULT 0,
-    hirioki integer DEFAULT 0,
-    renzo integer DEFAULT 0,
-    kota integer DEFAULT 0,
-    itachi integer DEFAULT 0,
-    hikari integer DEFAULT 0,
-    sora integer DEFAULT 0,
-    kairijo integer DEFAULT 0,
-    aki integer DEFAULT 0,
-    toru integer DEFAULT 0,
-    aoyama integer DEFAULT 0,
-    dai integer DEFAULT 0
+    r2_d2 integer DEFAULT 0,
+    aden_skirata integer DEFAULT 0,
+    lesser_stormtrooper integer DEFAULT 0,
+    ysanne_isard integer DEFAULT 0,
+    victorie_talik integer DEFAULT 0,
+    eleventh_brother integer DEFAULT 0,
+    darth_vader integer DEFAULT 0,
+    chewbacca integer DEFAULT 0,
+    sergeant_kreel integer DEFAULT 0,
+    pt_1178 integer DEFAULT 0,
+    unknown_valtorax_character integer DEFAULT 0,
+    third_brother integer DEFAULT 0,
+    second_sister integer DEFAULT 0,
+    fixer integer DEFAULT 0,
+    thirteenth_brother integer DEFAULT 0,
+    dexter_jettster integer DEFAULT 0,
+    cyan integer DEFAULT 0,
+    grand_admiral_piett integer DEFAULT 0,
+    unknown_stemmedaxis06_character integer DEFAULT 0,
+    fifth_brother integer DEFAULT 0,
+    maze integer DEFAULT 0,
+    rav_bralor integer DEFAULT 0,
+    epsilon integer DEFAULT 0,
+    zeb integer DEFAULT 0,
+    agent66 integer DEFAULT 0,
+    wedge_antilles integer DEFAULT 0,
+    cipher9 integer DEFAULT 0,
+    thrawn integer DEFAULT 0,
+    corran_horn integer DEFAULT 0,
+    agent_kallus integer DEFAULT 0,
+    sixth_sister integer DEFAULT 0,
+    chopper integer DEFAULT 0,
+    han_solo integer DEFAULT 0,
+    ackbar integer DEFAULT 0,
+    grand_inquisitor integer DEFAULT 0,
+    rex integer DEFAULT 0,
+    boba_fett integer DEFAULT 0,
+    sabe_nabierre integer DEFAULT 0,
+    luke_skywalker integer DEFAULT 0,
+    c3po integer DEFAULT 0,
+    airen_cracken integer DEFAULT 0,
+    strzalk integer DEFAULT 0,
+    ninth_sister integer DEFAULT 0,
+    ig_88b integer DEFAULT 0,
+    garrick_versio integer DEFAULT 0,
+    axis integer DEFAULT 0,
+    gideon integer DEFAULT 0,
+    fenn_shysa integer DEFAULT 0,
+    boss integer DEFAULT 0,
+    sabine_wren integer DEFAULT 0,
+    mara_jade integer DEFAULT 0,
+    alpha_17 integer DEFAULT 0,
+    omega integer DEFAULT 0,
+    kal_skirata integer DEFAULT 0,
+    gallius_rex integer DEFAULT 0,
+    twelfth_brother integer DEFAULT 0,
+    eli_vanto integer DEFAULT 0,
+    saw_garrera integer DEFAULT 0,
+    wolffe integer DEFAULT 0,
+    lando_calrissian integer DEFAULT 0,
+    la_mereel integer DEFAULT 0,
+    kyle_katarn integer DEFAULT 0,
+    carnor_jax integer DEFAULT 0,
+    mission_vao integer DEFAULT 0,
+    x2 integer DEFAULT 0,
+    seventh_sister integer DEFAULT 0,
+    jan_ors integer DEFAULT 0,
+    scorch integer DEFAULT 0,
+    lumiya integer DEFAULT 0,
+    rahm_kota integer DEFAULT 0,
+    pellaeon integer DEFAULT 0,
+    leia_organa integer DEFAULT 0,
+    tempprofit numeric(100,2) DEFAULT 0
+
 );
 
 
@@ -299,13 +346,7 @@ COPY pgagent.pga_joblog (jlgid, jlgjobid, jlgstatus, jlgstart, jlgduration) FROM
 
 
 --
--- Data for Name: pga_jobstep; Type: TABLE DATA; Schema: pgagent; Owner: postgres
---
-
-COPY pgagent.pga_jobstep (jstid, jstjobid, jstname, jstdesc, jstenabled, jstkind, jstcode, jstconnstr, jstdbname, jstonerror, jscnextrun) FROM stdin;
-1	1	updateServer		t	s	UPDATE users set money=money+60;\nUPDATE users set totalstockvalue=totalstockvalue+60;		investors	f	\N
-\.
-
+-- Data for Name: pga_jobstep; Type: TABLE DATA; Schema: pgagent; Owner: postg
 
 --
 -- Data for Name: pga_jobsteplog; Type: TABLE DATA; Schema: pgagent; Owner: postgres
@@ -331,33 +372,11 @@ COPY pgagent.pga_jobsteplog (jslid, jsljlgid, jsljstid, jslstatus, jslresult, js
 -- Data for Name: stockvalues; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-COPY public.stockvalues (id, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asura, tashiro, tadashi, seina, kaze, ishika, akane, sado, alaric, gorou, kaiaku, arata, chiyomi, kuba, touka, abo, kazuya, hanako, lastchapter, higeki, isamu, enki, yuu, ue, shiro, shukei, hokama, wei, sanagi, meatloaf, amelie, shihai, yasu, hirioki, renzo, kota, itachi, hikari, sora, kairijo, aki, toru, aoyama, dai) FROM stdin;
-36	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	0	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-37	42.00	41.00	32.00	32.00	31.00	30.00	25.00	25.00	24.00	24.00	23.00	23.00	23.00	21.00	19.00	18.00	17.00	15.00	14.00	20.00	20.00	20.00	20.00	21.00	1	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-38	42.00	41.00	32.00	33.28	31.00	32.10	25.00	25.00	24.00	24.00	23.00	23.00	23.00	21.00	19.00	18.00	17.00	15.00	14.00	20.00	20.00	20.00	20.00	21.00	2	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-39	42.00	44.69	35.84	33.28	31.00	32.10	27.25	25.50	24.00	24.00	23.00	23.46	23.00	21.00	19.00	18.00	17.00	15.15	14.00	20.00	20.00	20.00	20.00	21.00	3	20.00	20.00	20.00	20.20	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-40	42.00	44.69	35.84	33.28	31.00	32.10	27.25	25.50	24.00	24.00	23.00	23.46	23.00	21.00	19.00	18.00	17.00	15.15	14.00	20.00	21.00	20.00	20.00	21.00	4	20.00	20.00	20.00	20.20	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-41	39.90	44.69	35.84	33.28	31.00	32.10	27.25	25.50	24.00	24.00	23.00	23.46	23.00	23.52	19.00	18.00	19.04	15.15	14.70	20.00	21.00	20.00	22.40	21.00	5	20.00	20.00	18.00	20.20	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-42	39.00	44.69	35.84	33.28	31.00	32.10	27.25	25.50	24.00	24.00	23.00	23.46	23.00	25.40	19.00	18.00	20.75	15.15	14.70	20.00	22.05	20.00	24.20	21.00	6	20.00	20.00	17.64	20.20	20.00	20.00	20.00	22.20	20.00	20.00	20.00	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-43	39.00	44.69	35.84	33.28	31.00	32.10	27.25	25.50	24.00	24.00	23.00	23.46	23.00	25.40	19.00	18.54	20.75	15.15	14.70	20.00	23.81	20.00	24.20	21.00	7	20.00	20.00	17.64	20.20	20.00	20.00	20.00	22.20	20.00	20.00	20.00	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-44	39.00	44.69	35.84	33.28	31.62	32.10	27.25	25.50	24.00	24.00	23.00	23.46	23.00	25.40	19.00	18.54	20.75	15.15	14.70	21.60	23.81	20.00	24.20	21.00	8	20.00	20.00	17.64	20.20	20.00	20.00	20.00	22.20	20.00	20.00	1.60	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-45	39.00	44.69	35.84	33.28	31.62	32.10	27.25	25.50	24.00	24.00	23.00	25.80	23.00	25.40	19.00	18.54	20.75	16.10	14.70	21.60	23.81	20.00	24.20	21.00	9	20.00	20.00	17.64	20.20	20.00	20.00	20.00	22.20	20.00	20.00	1.50	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-46	39.00	44.69	35.84	33.28	31.62	32.10	27.25	27.29	24.00	25.44	23.00	25.80	23.00	25.40	19.00	18.54	20.75	16.10	14.70	21.60	23.81	20.00	24.20	21.00	10	20.00	20.00	17.64	21.41	20.00	20.00	20.00	22.20	20.00	20.00	2.01	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-47	39.00	44.69	35.84	33.28	31.62	32.10	27.25	27.29	24.00	25.44	23.69	25.80	23.00	25.40	19.00	18.54	20.75	16.10	14.70	21.60	23.81	20.00	24.20	21.00	11	20.00	20.00	17.64	21.41	20.00	20.60	20.00	22.20	20.00	20.00	2.13	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-48	39.00	44.69	35.84	33.28	31.62	32.10	27.25	27.29	24.00	29.26	23.69	25.80	23.00	25.40	19.57	18.54	20.75	16.10	14.70	21.60	23.81	20.00	24.20	21.00	12	20.00	20.00	17.64	21.41	20.00	20.60	20.00	22.20	20.00	20.00	2.25	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-49	39.00	46.03	37.63	33.28	31.62	32.10	27.25	27.29	24.00	29.26	23.69	23.22	23.00	25.40	19.57	18.54	20.75	16.10	14.70	21.60	23.81	20.00	24.20	21.00	13	20.00	20.00	17.64	21.41	20.00	20.60	20.00	22.20	20.00	20.00	1.00	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-50	39.00	46.03	37.63	34.61	31.62	33.70	27.25	27.29	24.00	29.26	23.69	23.22	24.15	25.40	19.57	18.54	21.37	16.10	14.70	21.60	23.81	20.00	24.20	21.00	14	20.00	20.60	17.64	21.41	21.20	21.63	20.00	22.20	20.00	20.00	1.42	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-51	39.00	46.03	37.63	34.61	31.62	33.70	27.25	27.29	24.00	29.26	23.69	23.22	24.15	25.40	19.57	18.54	21.37	16.10	14.70	21.60	23.81	20.00	24.20	21.00	15	21.20	20.60	17.64	21.41	20.00	21.63	20.00	22.20	20.00	20.00	1.42	20.00	10.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-52	39.00	46.03	37.63	34.61	31.62	33.70	27.25	27.29	24.00	29.26	23.69	23.22	24.15	25.40	19.57	18.54	21.37	16.10	14.70	21.60	23.81	20.00	24.20	21.00	16	21.20	20.60	17.64	21.41	20.00	21.63	20.00	22.20	20.00	20.00	2.00	20.00	10.00	20.00	20.60	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00	20.00
-\.
 
 
 --
 -- Data for Name: users; Type: TABLE DATA; Schema: public; Owner: postgres
 --
-
-COPY public.users (id, username, password, money, totalstockvalue, profit, ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asura, tashiro, tadashi, seina, kaze, ishika, akane, sado, alaric, gorou, kaiaku, arata, chiyomi, kuba, touka, abo, kazuya, hanako, higeki, isamu, enki, tempprofit, yuu, ue, shiro, shukei, hokama, wei, sanagi, meatloaf, amelie, shihai, yasu, hirioki, renzo, kota, itachi, hikari, sora, kairijo, aki, toru, aoyama, dai) FROM stdin;
-\.
 
 
 --

@@ -2,380 +2,433 @@ let stockValues = [
   [
     [20,42],
     true,
-    "ashaf",
+    "r2_d2",
     0,
   ],
   [
     [20,41],
     true,
-    "jukusuke",
+    "aden_skirata",
     0,
   ],
   [
     [20,32],
     true,
-    "ryuuichi",
+    "lesser_stormtrooper",
     0,
   ],
   [
     [20,32],
     true,
-    "asuka",
+    "ysanne_isard",
     0,
   ],
   [
     [20,31],
     true,
-    "noroi",
+    "victorie_talik",
     0,
   ],
   [
     [20,30],
     true,
-    "kenji",
+    "eleventh_brother",
     0,
   ],
   [
     [20,25],
     true,
-    "asura",
+    "darth_vader",
     0,
   ],
   [
     [20,25],
     true,
-    "tashiro",
+    "chewbacca",
     0,
   ],
   [
     [20,24],
     true,
-    "tadashi",
+    "sergeant_kreel",
     0,
   ],
   [
     [20,24],
     true,
-    "seina",
+    "pt_1178",
     0,
   ],
   [
     [20,23],
     true,
-    "kaze",
+    "unknown_valtorax_character",
     0,
   ],
   [
     [20,23],
     true,
-    "ishika",
+    "third_brother",
     0,
   ],
   [
     [20,23],
     true,
-    "akane",
+    "second_sister",
     0,
   ],
   [
     [20,21],
     true,
-    "sado",
+    "fixer",
     0,
   ],
   [
     [20,19],
     true,
-    "alaric",
+    "thirteenth_brother",
     0,
   ],
   [
     [20,18],
     true,
-    "gorou",
+    "dexter_jettster",
     0,
   ],
   [
     [20,17],
     true,
-    "kaiaku",
+    "cyan",
     0,
   ],
   [
     [20,15],
     true,
-    "arata",
+    "grand_admiral_piett",
     0,
   ],
   [
     [20,14],
     true,
-    "chiyomi",
+    "unknown_stemmedaxis06_character",
     0,
   ],
   [
     [20,20],
     true,
-    "kuba",
+    "fifth_brother",
     0,
   ],
   [
     [20,20],
     true,
-    "touka",
+    "maze",
     0,
   ],
   [
     [20,20],
     true,
-    "abo",
+    "rav_bralor",
     0,
   ],
   [
     [20,20],
     true,
-    "kazuya",
+    "epsilon",
     0,
   ],
   [
     [20,21],
     true,
-    "hanako",
+    "zeb",
     0,
   ],
   [
     [20,20],
     true,
-    "higeki",
+    "agent66",
     0,
   ],
   [
     [20,20],
     true,
-    "isamu",
+    "wedge_antilles",
     0,
   ],
   [
     [20,20],
     true,
-    "enki",
+    "cipher9",
     0,
   ],
   [
     [20,20],
     true,
-    "yuu",
+    "thrawn",
     0,
   ],
   [
     [20,20],
     true,
-    "ue",
+    "corran_horn",
     0,
   ],
   [
     [20,20],
     true,
-    "shiro",
+    "agent_kallus",
     0,
   ],
   [
     [20,20],
     true,
-    "shukei",
+    "sixth_sister",
     0,
   ],
   [
     [20,20],
     true,
-    "hokama",
+    "chopper",
     0,
   ],
   [
     [20,20],
     true,
-    "wei",
+    "han_solo",
     0,
   ],
   [
     [20,20],
     true,
-    "sanagi",
+    "ackbar",
     0,
   ],
   [
     [20,20],
     true,
-    "meatloaf",
+    "grand_inquisitor",
     0,
   ],
   [
     [20,20],
     true,
-    "amelie",
+    "rex",
     0,
   ],
   [
     [20,20],
     true,
-    "shihai",
+    "boba_fett",
     0,
   ],
   [
     [20,20],
     true,
-    "yasu",
+    "sabe_nabierre",
     0,
   ],
   [
     [20,20],
     true,
-    "hirioki",
+    "luke_skywalker",
     0,
   ],
   [
     [20,20],
     true,
-    "renzo",
+    "c3po",
     0,
   ],
   [
     [20,20],
     true,
-    "kota",
+    "airen_cracken",
     0,
   ],
   [
     [20,20],
     true,
-    "itachi",
+    "strzalk",
     0,
   ],
   [
     [20,20],
     true,
-    "hikari",
+    "ninth_sister",
     0,
   ],
   [
     [20,20],
     true,
-    "sora",
+    "ig_88b",
     0,
   ],
   [
     [20,20],
     true,
-    "kairijo",
+    "garrick_versio",
     0,
   ],
   [
     [20,20],
     true,
-    "aki",
+    "axis",
     0,
   ],
   [
     [20,20],
     true,
-    "toru",
+    "gideon",
     0,
   ],
   [
     [20,20],
     true,
-    "aoyama",
+    "fenn_shysa",
     0,
   ],
   [
     [20,20],
     true,
-    "dai",
+    "boss",
     0,
   ],
   [
     [20,20],
     true,
-    "ikiryo",
+    "sabine_wren",
     0,
   ],
   [
     [20,20],
     true,
-    "shyythiel",
+    "mara_jade",
     0,
   ],
   [
     [20,20],
     true,
-    "ain",
+    "alpha_17",
     0,
   ],
   [
     [20,20],
     true,
-    "doctor",
+    "omega",
     0,
   ],
   [
     [20,20],
     true,
-    "torako",
+    "kal_skirata",
     0,
   ],
   [
     [20,20],
     true,
-    "eiko",
+    "gallius_rex",
     0,
   ],
   [
     [20,20],
     true,
-    "hokori_gojo",
+    "twelfth_brother",
     0,
   ],
   [
     [20,20],
     true,
-    "shion",
+    "eli_vanto",
     0,
   ],
   [
     [20,20],
     true,
-    "kizu",
+    "saw_garrera",
     0,
   ],
 
   [
     [20,20],
     true,
-    "darius",
+    "wolffe",
     0,
   ],
   [
     [20,20],
     true,
-    "yoshinori",
+    "lando_calrissian",
     0,
   ],
   [
     [20,20],
     true,
-    "ghose",
+    "evaar'la_mereel",
     0,
   ],
   [
     [20,20],
     true,
-    "kaien",
+    "kyle_katarn",
     0,
   ],
   [
     [20,20],
     true,
-    "suzuki",
+    "carnor_jax",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "mission_vao",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "x2",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "seventh_sister",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "jan_ors",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "scorch",
+    0,
+  ],[
+    [20,20],
+    true,
+    "lumiya",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "rahm_kota",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "pellaeon",
+    0,
+  ],
+  [
+    [20,20],
+    true,
+    "leia_organa",
     0,
   ],
 ];
@@ -393,7 +446,7 @@ let lastChapter;
 let sellNum = 1;
 let buyNum = 1;
 canvas.id = "stockGraph";
-const stockMax = 50;
+const stockMax = 100;
 let money = 1000;
 let profit=0;
 let totalstockvalue=1000;
@@ -908,68 +961,78 @@ function drawStocks() {
 const validateData = (data) => {
   sessionStorage.money = Number(data.money);
   sessionStorage.profit = Number(data.profit);
-  sessionStorage.ashaf = data.ashaf;
-  sessionStorage.jukusuke = data.jukusuke;
-  sessionStorage.ryuuichi = data.ryuuichi;
-  sessionStorage.asuka = data.asuka;
-  sessionStorage.noroi = data.noroi;
-  sessionStorage.kenji = data.kenji;
-  sessionStorage.asura = data.asura;
-  sessionStorage.tashiro = data.tashiro;
-  sessionStorage.tadashi = data.tadashi;
-  sessionStorage.seina = data.seina;
-  sessionStorage.kaze = data.kaze;
-  sessionStorage.ishika = data.ishika;
-  sessionStorage.akane = data.akane;
-  sessionStorage.sado = data.sado;
-  sessionStorage.alaric = data.alaric;
-  sessionStorage.gorou = data.gorou;
-  sessionStorage.kaiaku = data.kaiaku;
-  sessionStorage.arata = data.arata;
-  sessionStorage.chiyomi = data.chiyomi;
-  sessionStorage.kuba = data.kuba;
-  sessionStorage.touka = data.touka;
-  sessionStorage.abo = data.abo;
-  sessionStorage.kazuya = data.kazuya;
-  sessionStorage.hanako = data.hanako;
-  sessionStorage.higeki = data.higeki;
-  sessionStorage.isamu = data.isamu;
-  sessionStorage.enki = data.enki;
-  sessionStorage.yuu = data.yuu;
-  sessionStorage.ue = data.ue;
-  sessionStorage.shiro = data.shiro;
-  sessionStorage.shukei = data.shukei;
-  sessionStorage.hokama = data.hokama;
-  sessionStorage.wei = data.wei;
-  sessionStorage.sanagi = data.sanagi;
-  sessionStorage.meatloaf = data.meatloaf;
-  sessionStorage.amelie = data.amelie;
-  sessionStorage.shihai = data.shihai;
-  sessionStorage.yasu = data.yasu;
-  sessionStorage.hirioki = data.hirioki;
-  sessionStorage.renzo = data.renzo;
-  sessionStorage.kota = data.kota;
-  sessionStorage.itachi = data.itachi;
-  sessionStorage.hikari = data.hikari;
-  sessionStorage.sora = data.sora;
-  sessionStorage.kairijo = data.kairijo;
-  sessionStorage.aki = data.aki;
-  sessionStorage.toru = data.toru;
-  sessionStorage.aoyama = data.aoyama;
-  sessionStorage.dai = data.dai;
+  sessionStorage.r2_d2 = data.r2_d2;
+  sessionStorage.aden_skirata = data.aden_skirata;
+  sessionStorage.lesser_stormtrooper = data.lesser_stormtrooper;
+  sessionStorage.ysanne_isard = data.ysanne_isard;
+  sessionStorage.victorie_talik = data.victorie_talik;
+  sessionStorage.eleventh_brother = data.eleventh_brother;
+  sessionStorage.darth_vader = data.darth_vader;
+  sessionStorage.chewbacca = data.chewbacca;
+  sessionStorage.sergeant_kreel = data.sergeant_kreel;
+  sessionStorage.pt_1178 = data.pt_1178;
+  sessionStorage.unknown_valtorax_character = data.unknown_valtorax_character;
+  sessionStorage.third_brother = data.third_brother;
+  sessionStorage.second_sister = data.second_sister;
+  sessionStorage.fixer = data.fixer;
+  sessionStorage.thirteenth_brother = data.thirteenth_brother;
+  sessionStorage.dexter_jettster = data.dexter_jettster;
+  sessionStorage.cyan = data.cyan;
+  sessionStorage.grand_admiral_piett = data.grand_admiral_piett;
+  sessionStorage.unknown_stemmedaxis06_character = data.unknown_stemmedaxis06_character;
+  sessionStorage.fifth_brother = data.fifth_brother;
+  sessionStorage.maze = data.maze;
+  sessionStorage.rav_bralor = data.rav_bralor;
+  sessionStorage.epsilon = data.epsilon;
+  sessionStorage.zeb = data.zeb;
+  sessionStorage.agent66 = data.agent66;
+  sessionStorage.wedge_antilles = data.wedge_antilles;
+  sessionStorage.cipher9 = data.cipher9;
+  sessionStorage.thrawn = data.thrawn;
+  sessionStorage.corran_horn = data.corran_horn;
+  sessionStorage.agent_kallus = data.agent_kallus;
+  sessionStorage.sixth_sister = data.sixth_sister;
+  sessionStorage.chopper = data.chopper;
+  sessionStorage.han_solo = data.han_solo;
+  sessionStorage.ackbar = data.ackbar;
+  sessionStorage.grand_inquisitor = data.grand_inquisitor;
+  sessionStorage.rex = data.rex;
+  sessionStorage.boba_fett = data.boba_fett;
+  sessionStorage.sabe_nabierre = data.sabe_nabierre;
+  sessionStorage.luke_skywalker = data.luke_skywalker;
+  sessionStorage.c3po = data.c3po;
+  sessionStorage.airen_cracken = data.airen_cracken;
+  sessionStorage.strzalk = data.strzalk;
+  sessionStorage.ninth_sister = data.ninth_sister;
+  sessionStorage.ig_88b = data.ig_88b;
+  sessionStorage.garrick_versio = data.garrick_versio;
+  sessionStorage.axis = data.axis;
+  sessionStorage.gideon = data.gideon;
+  sessionStorage.fenn_shysa = data.fenn_shysa;
+  sessionStorage.boss = data.boss;
 
-  sessionStorage.ikiryo = data.ikiryo;
-  sessionStorage.shyythiel = data.shyythiel;
-  sessionStorage.ain = data.ain;
-  sessionStorage.doctor = data.doctor;
-  sessionStorage.torako = data.torako;
-  sessionStorage.eiko = data.eiko;
-  sessionStorage.hokori_gojo = data.hokori_gojo;
-  sessionStorage.shion = data.shion;
-  sessionStorage.kizu = data.kizu;
-  sessionStorage.darius = data.darius;
-  sessionStorage.yoshinori = data.yoshinori;
-  sessionStorage.ghose = data.ghose;
-  sessionStorage.kaien = data.kaien;
-  sessionStorage.suzuki = data.suzuki;
+  sessionStorage.sabine_wren = data.sabine_wren;
+  sessionStorage.mara_jade = data.mara_jade;
+  sessionStorage.alpha_17 = data.alpha_17;
+  sessionStorage.omega = data.omega;
+  sessionStorage.kal_skirata = data.kal_skirata;
+  sessionStorage.gallius_rex = data.gallius_rex;
+  sessionStorage.twelfth_brother = data.twelfth_brother;
+  sessionStorage.eli_vanto = data.eli_vanto;
+  sessionStorage.saw_garrera = data.saw_garrera;
+  sessionStorage.wolffe = data.wolffe;
+  sessionStorage.lando_calrissian = data.lando_calrissian;
+  sessionStorage.la_mereel = data.la_mereel;
+  sessionStorage.kyle_katarn = data.kyle_katarn;
+  sessionStorage.carnor_jax = data.carnor_jax;
+  sessionStorage.mission_vao = data.mission_vao;
+  sessionStorage.carnor_jax = data.carnor_jax;
+  sessionStorage.x2 = data.x2;
+  sessionStorage.seventh_sister = data.seventh_sister;
+  sessionStorage.jan_ors = data.jan_ors;
+  sessionStorage.scorch = data.scorch;
+  sessionStorage.lumiya = data.lumiya;
+  sessionStorage.rahm_kota = data.rahm_kota;
+  sessionStorage.pellaeon = data.pellaeon;
+  sessionStorage.leia_organa = data.leia_organa;
 };
