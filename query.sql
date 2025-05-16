@@ -1,2 +1,34 @@
-INSERT INTO stockvalues (ashaf, jukusuke, ryuuichi, asuka, noroi, kenji, asura, tashiro, tadashi, seina, kaze, ishika, akane, sado, alaric, gorou, kaiaku, arata, chiyomi, kuba, touka, abo, kazuya, hanako,higeki,isamu,enki,yuu,ue,shiro,shukei,hokama,wei,sanagi,meatloaf,amelie,shihai,yasu,hirioki,renzo,kota,itachi,hikari,sora,kairijo,aki,toru,aoyama,dai,ikiryo,shyythiel,ain,doctor,torako,eiko,hokori_gojo,shion,kizu,darius,yoshinori,ghose,kaien,suzuki,lastchapter)
-VALUES (28 , 50 , 43 , 39 , 31.62 , 33.7, 27.25, 27.29, 24, 31, 26, 27, 28, 21, 19.57, 20, 25, 21, 17, 24, 24.5, 1, 24.2, 23.1, 21.2, 22.5, 17.64, 21.41, 20, 20.4, 19, 25.1, 20, 20, 1, 21, 1, 20, 20.6, 22.1, 24.3, 18.6, 20, 20, 20, 22.3, 23.4, 20, 20, 20, 20, 22.6, 20, 17.8, 21.1, 21.4, 22.3, 20, 22.7, 20, 20, 20, 21.8, 17);
+INSERT INTO stockvalues (
+    r2_d2, aden_skirata, lesser_stormtrooper, ysanne_isard, victorie_talik, 
+    eleventh_brother, darth_vader, chewbacca, sergeant_kreel, pt_1178, 
+    unknown_valtorax_character, third_brother, second_sister, fixer, thirteenth_brother, 
+    dexter_jettster, cyan, grand_admiral_piett, unknown_stemmedaxis06_character, fifth_brother, 
+    maze, rav_bralor, epsilon, zeb, agent66, 
+    wedge_antilles, cipher9, thrawn, corran_horn, agent_kallus, 
+    sixth_sister, chopper, han_solo, ackbar, grand_inquisitor, 
+    rex, boba_fett, sabe_nabierre, luke_skywalker, c3po, 
+    airen_cracken, strzalk, ninth_sister, ig_88b, garrick_versio, 
+    axis, gideon, fenn_shysa, boss, sabine_wren, 
+    mara_jade, alpha_17, omega, kal_skirata, gallius_rex, 
+    twelfth_brother, eli_vanto, saw_garrera, wolffe, lando_calrissian, 
+    la_mereel, kyle_katarn, carnor_jax, mission_vao, x2, 
+    seventh_sister, jan_ors, scorch, lumiya, rahm_kota, 
+    pellaeon, leia_organa, lastchapter
+) VALUES (
+    76, 59, 4, 14, 60,
+    40, 80, 68, 64, 46,
+    48, 32, 32, 48, 8,
+    60, 40, 48, 78, 40,
+    36, 44, 60, 48, 42,
+    60, 46, 68, 51, 48,
+    40, 66, 72, 68, 62,
+    64, 61, 52, 79, 55,
+    44, 48, 40, 44, 38,
+    74, 46, 30, 48, 50,
+    52, 34, 40, 26, 40,
+    48, 41, 46, 32, 74,
+    66, 61, 44, 42, 40,
+    40, 42, 48, 8, 51,
+    48, 72, 10
+);
+

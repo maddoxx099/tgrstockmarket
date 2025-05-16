@@ -123,7 +123,7 @@ const validateData = (data)=>{
         sessionStorage.saw_garrera = data.saw_garrera;
         sessionStorage.wolffe = data.wolffe;
         sessionStorage.lando_calrissian = data.lando_calrissian;
-        sessionStorage.la_mereel = data.la_mereel;
+        sessionStorage.evaarla_mereel = data.evaarla_mereel;
         sessionStorage.kyle_katarn = data.kyle_katarn;
         sessionStorage.carnor_jax = data.carnor_jax;
         sessionStorage.mission_vao = data.mission_vao;
@@ -136,6 +136,7 @@ const validateData = (data)=>{
         sessionStorage.rahm_kota = data.rahm_kota;
         sessionStorage.pellaeon = data.pellaeon;
         sessionStorage.leia_organa = data.leia_organa;
+        sessionStorage.ghos_gin = data.ghos_gin;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }

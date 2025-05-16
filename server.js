@@ -236,7 +236,7 @@ app.get("/stock-values", (req, res) => {
       "saw_garrera",
       "wolffe",
       "lando_calrissian",
-      "la_mereel",
+      "evaarla_mereel",
       "kyle_katarn",
       "carnor_jax",
       "mission_vao",
@@ -248,7 +248,7 @@ app.get("/stock-values", (req, res) => {
       "rahm_kota",
       "pellaeon",
       "leia_organa",
-
+      "ghos_gin",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -346,7 +346,7 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
     "saw_garrera",
     "wolffe",
     "lando_calrissian",
-    "la_mereel",
+    "evaarla_mereel",
     "kyle_katarn",
     "carnor_jax",
     "mission_vao",
@@ -358,6 +358,7 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
     "rahm_kota",
     "pellaeon",
     "leia_organa",
+    "ghos_gin",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -434,7 +435,7 @@ app.post("/login-user", (req, res) => {
     "saw_garrera",
     "wolffe",
     "lando_calrissian",
-    "la_mereel",
+    "evaarla_mereel",
     "kyle_katarn",
     "carnor_jax",
     "mission_vao",
@@ -446,6 +447,7 @@ app.post("/login-user", (req, res) => {
     "rahm_kota",
     "pellaeon",
     "leia_organa",
+    "ghos_gin",
     "profit"  
   )
     .from("users")
@@ -546,7 +548,7 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "saw_garrera",
     "wolffe",
     "lando_calrissian",
-    "la_mereel",
+    "evaarla_mereel",
     "kyle_katarn",
     "carnor_jax",
     "mission_vao",
@@ -557,7 +559,8 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "lumiya",
     "rahm_kota",
     "pellaeon",
-    "leia_organa"
+    "leia_organa",
+    "ghos_gin"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -683,7 +686,7 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "saw_garrera",
     "wolffe",
     "lando_calrissian",
-    "la_mereel",
+    "evaarla_mereel",
     "kyle_katarn",
     "carnor_jax",
     "mission_vao",
@@ -694,7 +697,8 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "lumiya",
     "rahm_kota",
     "pellaeon",
-    "leia_organa"
+    "leia_organa",
+    "ghos_gin"
   )
     .from("stockvalues")
     .where("id", maxID)
