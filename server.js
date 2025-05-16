@@ -249,6 +249,7 @@ app.get("/stock-values", (req, res) => {
       "pellaeon",
       "leia_organa",
       "ghos_gin",
+      "janitor",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -359,6 +360,7 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
     "pellaeon",
     "leia_organa",
     "ghos_gin",
+    "janitor",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -448,6 +450,7 @@ app.post("/login-user", (req, res) => {
     "pellaeon",
     "leia_organa",
     "ghos_gin",
+    "janitor",
     "profit"  
   )
     .from("users")
@@ -560,7 +563,8 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "rahm_kota",
     "pellaeon",
     "leia_organa",
-    "ghos_gin"
+    "ghos_gin",
+    "janitor"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -698,7 +702,8 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "rahm_kota",
     "pellaeon",
     "leia_organa",
-    "ghos_gin"
+    "ghos_gin",
+    "janitor"
   )
     .from("stockvalues")
     .where("id", maxID)

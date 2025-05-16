@@ -11,9 +11,9 @@ INSERT INTO stockvalues (
     axis, gideon, fenn_shysa, boss, sabine_wren, 
     mara_jade, alpha_17, omega, kal_skirata, gallius_rex, 
     twelfth_brother, eli_vanto, saw_garrera, wolffe, lando_calrissian, 
-    la_mereel, kyle_katarn, carnor_jax, mission_vao, x2, 
+    evaarla_mereel, kyle_katarn, carnor_jax, mission_vao, x2, 
     seventh_sister, jan_ors, scorch, lumiya, rahm_kota, 
-    pellaeon, leia_organa, lastchapter
+    pellaeon, leia_organa, ghos_gin, janitor, lastchapter
 ) VALUES (
     76, 59, 4, 14, 60,
     40, 80, 68, 64, 46,
@@ -29,6 +29,5 @@ INSERT INTO stockvalues (
     48, 41, 46, 32, 74,
     66, 61, 44, 42, 40,
     40, 42, 48, 8, 51,
-    48, 72, 10
+    48, 72, 60, 35, 10
 );
-
