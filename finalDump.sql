@@ -425,8 +425,6 @@ COPY public.stockvalues (id, r2_d2, aden_skirata, lesser_stormtrooper, ysanne_is
 --
 
 COPY public.users (id, username, password, money, totalstockvalue, profit, r2_d2, aden_skirata, lesser_stormtrooper, ysanne_isard, victorie_talik, eleventh_brother, darth_vader, chewbacca, sergeant_kreel, pt_1178, unknown_valtorax_character, third_brother, second_sister, fixer, thirteenth_brother, dexter_jettster, cyan, grand_admiral_piett, unknown_stemmedaxis06_character, fifth_brother, maze, rav_bralor, epsilon, zeb, agent66, wedge_antilles, cipher9, thrawn, corran_horn, agent_kallus, sixth_sister, chopper, han_solo, ackbar, grand_inquisitor, rex, boba_fett, sabe_nabierre, luke_skywalker, c3po, airen_cracken, strzalk, ninth_sister, ig_88b, garrick_versio, axis, gideon, fenn_shysa, boss, sabine_wren, mara_jade, alpha_17, omega, kal_skirata, gallius_rex, twelfth_brother, eli_vanto, saw_garrera, wolffe, lando_calrissian, evaarla_mereel, kyle_katarn, carnor_jax, mission_vao, x2, seventh_sister, jan_ors, scorch, lumiya, rahm_kota, pellaeon, leia_organa, tempprofit, ghos_gin, janitor) FROM stdin;
-14425	test	jujutsu1234	1000.00	1000.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.00	0	0
-14426	maddoxx	jujutsu1234	1000.00	1000.00	0.00	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0.00	0	0
 \.
 
 
