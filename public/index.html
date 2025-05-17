@@ -26,7 +26,7 @@
       <p class="alert"></p>
     </div>
     <div style="margin-top: 20px;">
-      <button id="toggle-mode">Switch to Light Mode</button>
+      <button id="toggle-mode">Switch to New Republic Mode</button>
     </div> 
     <div class="investment-area" id="stockBox" style="width: 830px; margin-left: 50px;">
       <label for="chapterNumTable" style="margin-left: 25px; font-size: large; font-style: bold"><strong>Arc Number:</strong></label>
@@ -122,9 +122,9 @@
       toggleButton.addEventListener('click', () => {
         body.classList.toggle('dark-mode');
         if (body.classList.contains('dark-mode')) {
-          toggleButton.textContent = 'Switch to Light Mode';
+          toggleButton.textContent = 'Switch to New Republic Mode';
         } else {
-          toggleButton.textContent = 'Switch to Dark Mode';
+          toggleButton.textContent = 'Switch to Empire Mode';
         }
       });
     </script>
