@@ -1,4 +1,4 @@
-# Stock Market Simulator 
+# Stock Market Simulator for The galactic republic discord server
 
   ## Project Overview
 
@@ -36,8 +36,8 @@
 
   ### 1. Clone the Repository
    ```bash
-   git clone https://github.com/maddoxx099/stock-market.git
-   cd stock-market-simulator
+   git clone https://github.com/maddoxx099/tgrstockmarket.git
+   cd tgrstockmarket
    ```
 
   ### 2. Install Dependencies
@@ -51,7 +51,7 @@
 
   ### 4. Run Database Migrations
    ```bash
-   psql -d investors -U postgres -f /newDump.sql > output.txt
+   psql -d investors -U postgres -f /finaldump.sql > output.txt
    ```
 
   ### 5. Start the Node.js Server
