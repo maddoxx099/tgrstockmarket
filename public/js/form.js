@@ -138,6 +138,9 @@ const validateData = (data)=>{
         sessionStorage.leia_organa = data.leia_organa;
         sessionStorage.ghos_gin = data.ghos_gin;
         sessionStorage.janitor = data.janitor;
+        sessionStorage.bo_katan = data.bo_katan;
+        sessionStorage.satele = data.satele;
+        sessionStorage.mothma = data.mothma;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }

@@ -250,6 +250,9 @@ app.get("/stock-values", (req, res) => {
       "leia_organa",
       "ghos_gin",
       "janitor",
+      "satele",
+      "mothma",
+      "bo_katan",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -361,6 +364,9 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
     "leia_organa",
     "ghos_gin",
     "janitor",
+    "satele",
+    "mothma",
+    "bo_katan",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -451,6 +457,9 @@ app.post("/login-user", (req, res) => {
     "leia_organa",
     "ghos_gin",
     "janitor",
+    "satele",
+    "mothma",
+    "bo_katan",
     "profit"  
   )
     .from("users")
@@ -564,7 +573,10 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "pellaeon",
     "leia_organa",
     "ghos_gin",
-    "janitor"
+    "janitor",
+    "satele",
+    "mothma",
+    "bo_katan"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -703,7 +715,10 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "pellaeon",
     "leia_organa",
     "ghos_gin",
-    "janitor"
+    "janitor",
+    "satele",
+    "mothma",
+    "bo_katan"
   )
     .from("stockvalues")
     .where("id", maxID)

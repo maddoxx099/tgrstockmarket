@@ -69,9 +69,12 @@ array = [["r2_d2",
     "lumiya",
     "rahm_kota",
     "pellaeon",
-    "leia_organa","ghos_gin","janitor"],
+    "leia_organa","ghos_gin","janitor",
+    "satele",
+    "mothma",
+    "bo_katan"],
          [76, 59, 4, 14, 60,
-    40, 80, 68, 64, 46,
+    49, 80, 68, 64, 46,
     48, 32, 32, 48, 8,
     60, 40, 48, 78, 40,
     36, 44, 60, 48, 42,
@@ -82,9 +85,9 @@ array = [["r2_d2",
     74, 46, 30, 48, 50,
     52, 34, 40, 26, 40,
     48, 41, 46, 32, 74,
-    66, 61, 44, 42, 40,
+    66, 61, 50, 42, 40,
     40, 42, 48, 8, 51,
-    48, 72, 60,35]]
+    48, 72, 60,35, 75, 65, 28]]
 output = ""
 for i,value in enumerate(array[0]):
     output+= str(value)+"*"+ str(array[1][i])+"+"
