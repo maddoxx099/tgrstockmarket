@@ -76,7 +76,7 @@ app.post("/leaderboard-money", (req, res) => {
     .returning(["scores"]))
     .select('*')
     .from('stuff')
-    .where('position','<',30)
+    .where('position','<',60)
     .orWhere({
       username: username,
     })
@@ -91,7 +91,7 @@ app.post("/leaderboard-money", (req, res) => {
     return db("users")
     .select(["money","profit","totalstockvalue", "username"])
     .orderBy("money", "desc")
-    .limit(30)
+    .limit(60)
     .returning(["scores"])
     .then((data) => {
       res.json(data);
@@ -112,7 +112,7 @@ app.post("/leaderboard-totalstockvalue", (req, res) => {
     .returning(["scores"]))
     .select('*')
     .from('stuff')
-    .where('position','<',30)
+    .where('position','<',60)
     .orWhere({
       username: username,
     })
@@ -127,7 +127,7 @@ app.post("/leaderboard-totalstockvalue", (req, res) => {
     return db("users")
     .select(["totalstockvalue","profit","money", "username"])
     .orderBy("totalstockvalue", "desc")
-    .limit(30)
+    .limit(60)
     .returning(["scores"])
     .then((data) => {
       res.json(data);
@@ -148,7 +148,7 @@ app.post("/leaderboard-profit", (req, res) => {
     .returning(["scores"]))
     .select('*')
     .from('stuff')
-    .where('position','<',30)
+    .where('position','<',60)
     .orWhere({
       username: username,
     })
@@ -163,7 +163,7 @@ app.post("/leaderboard-profit", (req, res) => {
     return db("users")
     .select(["money","profit","totalstockvalue", "username"])
     .orderBy("profit", "desc")
-    .limit(30)
+    .limit(60)
     .returning(["scores"])
     .then((data) => {
       res.json(data);
