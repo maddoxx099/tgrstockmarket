@@ -1,5 +1,6 @@
 alter table stockvalues
-ADD COLUMN satele numeric(5, 2) DEFAULT 75,
-ADD COLUMN mothma numeric(5, 2) DEFAULT 65,
-ADD COLUMN bo_katan numeric(5, 2) DEFAULT 28;
+ADD COLUMN bossk numeric(5, 2) DEFAULT 58,
+ADD COLUMN armstrong numeric(5, 2) DEFAULT 62,
+ADD COLUMN death_troopers numeric(5, 2) DEFAULT 48,
+ADD COLUMN snake_zapal numeric(5, 2) DEFAULT 30;
 

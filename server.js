@@ -253,6 +253,10 @@ app.get("/stock-values", (req, res) => {
       "satele",
       "mothma",
       "bo_katan",
+      "bossk",
+      "armstrong",
+      "snake_zapal",
+      "death_troopers",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -367,6 +371,10 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
     "satele",
     "mothma",
     "bo_katan",
+    "bossk",
+      "armstrong",
+      "snake_zapal",
+      "death_troopers",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -460,6 +468,10 @@ app.post("/login-user", (req, res) => {
     "satele",
     "mothma",
     "bo_katan",
+    "bossk",
+      "armstrong",
+      "snake_zapal",
+      "death_troopers",
     "profit"  
   )
     .from("users")
@@ -576,7 +588,11 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "janitor",
     "satele",
     "mothma",
-    "bo_katan"
+    "bo_katan",
+    "bossk",
+      "armstrong",
+      "snake_zapal",
+      "death_troopers"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -718,7 +734,11 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "janitor",
     "satele",
     "mothma",
-    "bo_katan"
+    "bo_katan",
+    "bossk",
+      "armstrong",
+      "snake_zapal",
+      "death_troopers"
   )
     .from("stockvalues")
     .where("id", maxID)

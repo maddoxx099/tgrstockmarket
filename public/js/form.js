@@ -141,6 +141,10 @@ const validateData = (data)=>{
         sessionStorage.bo_katan = data.bo_katan;
         sessionStorage.satele = data.satele;
         sessionStorage.mothma = data.mothma;
+        sessionStorage.bossk = data.bossk;
+        sessionStorage.snake_zapal = data.snake_zapal;
+        sessionStorage.armstrong = data.armstrong;
+        sessionStorage.death_troopers = data.death_troopers;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
