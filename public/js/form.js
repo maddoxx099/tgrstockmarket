@@ -145,6 +145,8 @@ const validateData = (data)=>{
         sessionStorage.snake_zapal = data.snake_zapal;
         sessionStorage.armstrong = data.armstrong;
         sessionStorage.death_troopers = data.death_troopers;
+        sessionStorage.nom_carver = data.nom_carver;
+        sessionStorage.samuel_rodrigues = data.samuel_rodrigues;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }

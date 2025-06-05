@@ -257,6 +257,8 @@ app.get("/stock-values", (req, res) => {
       "armstrong",
       "snake_zapal",
       "death_troopers",
+      "nom_carver",
+      "samuel_rodrigues",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -375,6 +377,8 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
       "armstrong",
       "snake_zapal",
       "death_troopers",
+      "nom_carver",
+      "samuel_rodrigues",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -472,6 +476,8 @@ app.post("/login-user", (req, res) => {
       "armstrong",
       "snake_zapal",
       "death_troopers",
+    "nom_carver",
+    "samuel_rodrigues",
     "profit"  
   )
     .from("users")
@@ -590,9 +596,11 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "mothma",
     "bo_katan",
     "bossk",
-      "armstrong",
-      "snake_zapal",
-      "death_troopers"
+    "armstrong",
+    "snake_zapal",
+    "death_troopers",
+    "nom_carver",
+    "samuel_rodrigues"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -738,7 +746,9 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
     "bossk",
       "armstrong",
       "snake_zapal",
-      "death_troopers"
+      "death_troopers",
+      "nom_carver",
+      "samuel_rodrigues"
   )
     .from("stockvalues")
     .where("id", maxID)
