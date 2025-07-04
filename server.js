@@ -259,6 +259,8 @@ app.get("/stock-values", (req, res) => {
       "death_troopers",
       "nom_carver",
       "samuel_rodrigues",
+      "mandalor_the_unwoke",
+      "fox",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -379,6 +381,8 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
       "death_troopers",
       "nom_carver",
       "samuel_rodrigues",
+      "mandalor_the_unwoke",
+      "fox",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -478,6 +482,8 @@ app.post("/login-user", (req, res) => {
       "death_troopers",
     "nom_carver",
     "samuel_rodrigues",
+    "mandalor_the_unwoke",
+    "fox",
     "profit"  
   )
     .from("users")
@@ -600,7 +606,9 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "snake_zapal",
     "death_troopers",
     "nom_carver",
-    "samuel_rodrigues"
+    "samuel_rodrigues",
+    "mandalor_the_unwoke",
+    "fox"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -748,7 +756,9 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
       "snake_zapal",
       "death_troopers",
       "nom_carver",
-      "samuel_rodrigues"
+      "samuel_rodrigues",
+      "mandalor_the_unwoke",
+      "fox"
   )
     .from("stockvalues")
     .where("id", maxID)

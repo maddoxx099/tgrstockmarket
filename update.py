@@ -78,7 +78,8 @@ array = [["r2_d2",
     "armstrong",
     "death_troopers",
     "nom_carver",
-    "samuel_rodrigues"],
+    "samuel_rodrigues","mandalor_the_unwoke",
+      "fox"],
          [76, 61.2, 7, 14, 64,
     50, 82, 70.72, 70.2, 46,
     48, 34, 33, 51.36, 8,
@@ -95,7 +96,8 @@ array = [["r2_d2",
     41, 44.1, 49, 8, 51,
     50, 74.45, 60, 3.17, 75,
     60, 25.5, 59, 30, 62, 
-    48, 46.4, 46]]
+    48, 46.4, 46, 56,
+    18]]
 output = ""
 for i,value in enumerate(array[0]):
     output+= str(value)+"*"+ str(array[1][i])+"+"

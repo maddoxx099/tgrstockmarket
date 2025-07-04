@@ -15,7 +15,8 @@ INSERT INTO stockvalues (
     seventh_sister, jan_ors, scorch, lumiya, rahm_kota, 
     pellaeon, leia_organa, ghos_gin, janitor, satele,
     mothma, bo_katan, bossk, snake_zapal, armstrong,
-    death_troopers, nom_carver, samuel_rodrigues, lastchapter
+    death_troopers, nom_carver, samuel_rodrigues, mandalor_the_unwoke,
+    fox, lastchapter
 ) VALUES (
     76, 61.2, 7, 14, 64,
     50, 82, 70.72, 70.2, 46,
@@ -33,5 +34,6 @@ INSERT INTO stockvalues (
     41, 44.1, 49, 8, 51,
     50, 74.45, 60, 3.17, 75,
     60, 25.5, 59, 30, 62, 
-    48, 46.4, 46, 27
+    48, 46.4, 46, 56,
+    18, 27
 );
