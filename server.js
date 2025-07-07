@@ -261,6 +261,8 @@ app.get("/stock-values", (req, res) => {
       "samuel_rodrigues",
       "mandalor_the_unwoke",
       "fox",
+      "x_wing",
+      "tie_fighter",
     "lastchapter")
     .orderBy("id","desc")
     .limit(10)
@@ -383,6 +385,8 @@ app.get("/get-user-data", authenticateToken,(req, res) => {
       "samuel_rodrigues",
       "mandalor_the_unwoke",
       "fox",
+      "x_wing",
+      "tie_fighter",
     "profit" /* "achievements", */
   )
     .from("users")
@@ -484,6 +488,8 @@ app.post("/login-user", (req, res) => {
     "samuel_rodrigues",
     "mandalor_the_unwoke",
     "fox",
+    "x_wing",
+    "tie_fighter",
     "profit"  
   )
     .from("users")
@@ -608,7 +614,9 @@ app.post("/buy-stock",authenticateToken, (req, res) => {
     "nom_carver",
     "samuel_rodrigues",
     "mandalor_the_unwoke",
-    "fox"
+    "fox",
+    "x_wing",
+    "tie_fighter"
   )
     .from("stockvalues")
     .where("id", maxID)
@@ -758,7 +766,9 @@ app.post("/sell-stock",authenticateToken, (req, res) => {
       "nom_carver",
       "samuel_rodrigues",
       "mandalor_the_unwoke",
-      "fox"
+      "fox",
+      "x_wing",
+      "tie_fighter"
   )
     .from("stockvalues")
     .where("id", maxID)

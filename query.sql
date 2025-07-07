@@ -16,7 +16,7 @@ INSERT INTO stockvalues (
     pellaeon, leia_organa, ghos_gin, janitor, satele,
     mothma, bo_katan, bossk, snake_zapal, armstrong,
     death_troopers, nom_carver, samuel_rodrigues, mandalor_the_unwoke,
-    fox, lastchapter
+    fox, x_wing, tie_fighter, lastchapter
 ) VALUES (
     76, 61.2, 7.4, 14, 64,
     50, 82, 70.72, 70.2, 46,
@@ -35,5 +35,5 @@ INSERT INTO stockvalues (
     50, 74.45, 60, 4.55, 75,
     60, 25.5, 59, 30, 62, 
     49.92, 46.4, 46, 56,
-    19, 28
+    19, 25, 15, 28
 );

@@ -149,6 +149,8 @@ const validateData = (data)=>{
         sessionStorage.samuel_rodrigues = data.samuel_rodrigues;
         sessionStorage.mandalor_the_unwoke = data.mandalor_the_unwoke;
         sessionStorage.fox = data.fox;
+        sessionStorage.x_wing = data.x_wing;
+        sessionStorage.tie_fighter = data.tie_fighter;
         //sessionStorage = JSON.parse(data)
         location.href = '/';
     }
