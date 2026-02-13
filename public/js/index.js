@@ -1,526 +1,293 @@
 let stockValues = [
   [
-    [20,42],
-    true,
-    "r2_d2",
-    0,
-  ],
-  [
-    [20,41],
-    true,
-    "aden_skirata",
-    0,
-  ],
-  [
-    [20,32],
-    true,
-    "lesser_stormtrooper",
-    0,
-  ],
-  [
-    [20,32],
-    true,
-    "ysanne_isard",
-    0,
-  ],
-  [
-    [20,31],
-    true,
-    "victorie_talik",
-    0,
-  ],
-  [
-    [20,30],
-    true,
-    "eleventh_brother",
-    0,
-  ],
-  [
-    [20,25],
-    true,
-    "darth_vader",
-    0,
-  ],
-  [
-    [20,25],
-    true,
-    "chewbacca",
-    0,
-  ],
-  [
-    [20,24],
-    true,
-    "sergeant_kreel",
-    0,
-  ],
-  [
-    [20,24],
-    true,
-    "pt_1178",
-    0,
-  ],
-  [
-    [20,23],
-    true,
-    "unknown_valtorax_character",
-    0,
-  ],
-  [
-    [20,23],
-    true,
-    "third_brother",
-    0,
-  ],
-  [
-    [20,23],
-    true,
-    "second_sister",
-    0,
-  ],
-  [
-    [20,21],
-    true,
-    "fixer",
-    0,
-  ],
-  [
-    [20,19],
-    true,
-    "thirteenth_brother",
-    0,
-  ],
-  [
-    [20,18],
-    true,
-    "dexter_jettster",
-    0,
-  ],
-  [
-    [20,17],
-    true,
-    "cyan",
-    0,
-  ],
-  [
-    [20,15],
-    true,
-    "grand_admiral_piett",
-    0,
-  ],
-  [
-    [20,14],
-    true,
-    "unknown_stemmedaxis06_character",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "fifth_brother",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "maze",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "rav_bralor",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "epsilon",
-    0,
-  ],
-  [
-    [20,21],
-    true,
-    "zeb",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "agent66",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "wedge_antilles",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "cipher9",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "thrawn",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "corran_horn",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "agent_kallus",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "sixth_sister",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "chopper",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "han_solo",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "ackbar",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "grand_inquisitor",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "rex",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "boba_fett",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "sabe_nabierre",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "luke_skywalker",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "c3po",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "airen_cracken",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "strzalk",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "ninth_sister",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "ig_88b",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "garrick_versio",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "axis",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "gideon",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "fenn_shysa",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "boss",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "sabine_wren",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "mara_jade",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "alpha_17",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "omega",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "kal_skirata",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "gallius_rex",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "twelfth_brother",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "eli_vanto",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "saw_garrera",
-    0,
-  ],
+  [20,97],
+  true,
+  "arye_prays",
+  0,
+],
+[
+  [20,97],
+  true,
+  "jango_fett",
+  0,
+],
+[
+  [20,95],
+  true,
+  "satele_shan",
+  0,
+],
+[
+  [20,94],
+  true,
+  "revan",
+  0,
+],
+[
+  [20,93],
+  true,
+  "havok",
+  0,
+],
+[
+  [20,92],
+  true,
+  "count_dooku",
+  0,
+],
+[
+  [20,90],
+  true,
+  "anakin_skywalker",
+  0,
+],
+[
+  [20,85],
+  true,
+  "ahsoka_tano",
+  0,
+],
+[
+  [20,84],
+  true,
+  "asharad_hett",
+  0,
+],
+[
+  [20,83],
+  true,
+  "general_grievous",
+  0,
+],
+[
+  [20,82],
+  true,
+  "seloth",
+  0,
+],
+[
+  [20,82],
+  true,
+  "mereel_skirata",
+  0,
+],
+[
+  [20,81],
+  true,
+  "venku_kad_skirata",
+  0,
+],
+[
+  [20,80],
+  true,
+  "quinlan_vos",
+  0,
+],
+[
+  [20,79],
+  true,
+  "near_farr",
+  0,
+],
+[
+  [20,78],
+  true,
+  "evaarla_mereel",
+  0,
+],
+[
+  [20,75],
+  true,
+  "clarrarifufza",
+  0,
+],
+[
+  [20,75],
+  true,
+  "elizabeth_persche",
+  0,
+],
+[
+  [20,72],
+  true,
+  "darth_vorhn",
+  0,
+],
+[
+  [20,71],
+  true,
+  "wrecker",
+  0,
+],
+[
+  [20,71],
+  true,
+  "annalise_dimidium",
+  0,
+],
+[
+  [20,70],
+  true,
+  "plo_koon",
+  0,
+],
+[
+  [20,62],
+  true,
+  "ghos_gin",
+  0,
+],
+[
+  [20,60],
+  true,
+  "tallisibeth_enwandung_esterhazy",
+  0,
+],
+[
+  [20,60],
+  true,
+  "sevaronurudo",
+  0,
+],
+[
+  [20,59],
+  true,
+  "a_77_fordo",
+  0,
+],
+[
+  [20,59],
+  true,
+  "a_07_epsilon",
+  0,
+],
+[
+  [20,58],
+  true,
+  "belkrin_priest_wren",
+  0,
+],
+[
+  [20,58],
+  true,
+  "rc_5704_storm",
+  0,
+],
+[
+  [20,56],
+  true,
+  "rc_6008_goober",
+  0,
+],
+[
+  [20,55],
+  true,
+  "meisis_zerliss",
+  0,
+],
+[
+  [20,55],
+  true,
+  "cc_1359_obsidian",
+  0,
+],
+[
+  [20,54],
+  true,
+  "dryden_vos",
+  0,
+],
+[
+  [20,54],
+  true,
+  "the_singer",
+  0,
+],
+[
+  [20,52],
+  true,
+  "cc_5597_jesse",
+  0,
+],
+[
+  [20,51],
+  true,
+  "rc_1025_fuse",
+  0,
+],
+[
+  [20,50],
+  true,
+  "cc_0087_blitz",
+  0,
+],
+[
+  [20,45],
+  true,
+  "daybreak_axis",
+  0,
+],
+[
+  [20,42],
+  true,
+  "cc_2237_oddball",
+  0,
+],
+[
+  [20,40],
+  true,
+  "dagan_gera",
+  0,
+],
+[
+  [20,40],
+  true,
+  "ct_1614_hasser",
+  0,
+],
+[
+  [20,39],
+  true,
+  "raiden",
+  0,
+],
+[
+  [20,38],
+  true,
+  "cc_1178_sights",
+  0,
+],
+[
+  [20,37],
+  true,
+  "cc_1212_twelve",
+  0,
+],
+[
+  [20,36],
+  true,
+  "ty_rell",
+  0,
+],
+[
+  [20,30],
+  true,
+  "valire_ameile_tone",
+  0,
+],
+[
+  [20,17],
+  true,
+  "ct_2602_rhino_slayer",
+  0,
+],
+[
+  [20,12],
+  true,
+  "bb_c03_cothree",
+  0,
+],
 
-  [
-    [20,20],
-    true,
-    "wolffe",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "lando_calrissian",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "evaarla_mereel",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "kyle_katarn",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "carnor_jax",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "mission_vao",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "x2",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "seventh_sister",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "jan_ors",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "scorch",
-    0,
-  ],[
-    [20,20],
-    true,
-    "lumiya",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "rahm_kota",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "pellaeon",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "leia_organa",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "ghos_gin",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "janitor",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "mothma",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "bo_katan",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "satele",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "bossk",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "armstrong",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "snake_zapal",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "death_troopers",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "nom_carver",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "samuel_rodrigues",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "mandalor_the_unwoke",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "fox",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "x_wing",
-    0,
-  ],
-  [
-    [20,20],
-    true,
-    "tie_fighter",
-    0,
-  ],
 ];
 //possibly add checkboxes for fraud and goat mode
 /*let fraudNames = {"Gojo":"Go/Jo","Kashimo":"The Waffled One","Sukuna":"Fraudkuna","Yuta":"The Sneakiest","Maki":"Fem Toji","Yuji":"Punch and Kick Merchant","Higuruma":"Fodder 1","Kenjaku":"King of Recieving Backshots","Hakari":"Fodder 2","Nobara":"Haruta Victim","Megumi":"Potential Man","Uraume":"Glorified Freezer","Todo":"Useless CT Now"}
@@ -1051,93 +818,52 @@ function drawStocks() {
 const validateData = (data) => {
   sessionStorage.money = Number(data.money);
   sessionStorage.profit = Number(data.profit);
-  sessionStorage.r2_d2 = data.r2_d2;
-  sessionStorage.aden_skirata = data.aden_skirata;
-  sessionStorage.lesser_stormtrooper = data.lesser_stormtrooper;
-  sessionStorage.ysanne_isard = data.ysanne_isard;
-  sessionStorage.victorie_talik = data.victorie_talik;
-  sessionStorage.eleventh_brother = data.eleventh_brother;
-  sessionStorage.darth_vader = data.darth_vader;
-  sessionStorage.chewbacca = data.chewbacca;
-  sessionStorage.sergeant_kreel = data.sergeant_kreel;
-  sessionStorage.pt_1178 = data.pt_1178;
-  sessionStorage.unknown_valtorax_character = data.unknown_valtorax_character;
-  sessionStorage.third_brother = data.third_brother;
-  sessionStorage.second_sister = data.second_sister;
-  sessionStorage.fixer = data.fixer;
-  sessionStorage.thirteenth_brother = data.thirteenth_brother;
-  sessionStorage.dexter_jettster = data.dexter_jettster;
-  sessionStorage.cyan = data.cyan;
-  sessionStorage.grand_admiral_piett = data.grand_admiral_piett;
-  sessionStorage.unknown_stemmedaxis06_character = data.unknown_stemmedaxis06_character;
-  sessionStorage.fifth_brother = data.fifth_brother;
-  sessionStorage.maze = data.maze;
-  sessionStorage.rav_bralor = data.rav_bralor;
-  sessionStorage.epsilon = data.epsilon;
-  sessionStorage.zeb = data.zeb;
-  sessionStorage.agent66 = data.agent66;
-  sessionStorage.wedge_antilles = data.wedge_antilles;
-  sessionStorage.cipher9 = data.cipher9;
-  sessionStorage.thrawn = data.thrawn;
-  sessionStorage.corran_horn = data.corran_horn;
-  sessionStorage.agent_kallus = data.agent_kallus;
-  sessionStorage.sixth_sister = data.sixth_sister;
-  sessionStorage.chopper = data.chopper;
-  sessionStorage.han_solo = data.han_solo;
-  sessionStorage.ackbar = data.ackbar;
-  sessionStorage.grand_inquisitor = data.grand_inquisitor;
-  sessionStorage.rex = data.rex;
-  sessionStorage.boba_fett = data.boba_fett;
-  sessionStorage.sabe_nabierre = data.sabe_nabierre;
-  sessionStorage.luke_skywalker = data.luke_skywalker;
-  sessionStorage.c3po = data.c3po;
-  sessionStorage.airen_cracken = data.airen_cracken;
-  sessionStorage.strzalk = data.strzalk;
-  sessionStorage.ninth_sister = data.ninth_sister;
-  sessionStorage.ig_88b = data.ig_88b;
-  sessionStorage.garrick_versio = data.garrick_versio;
-  sessionStorage.axis = data.axis;
-  sessionStorage.gideon = data.gideon;
-  sessionStorage.fenn_shysa = data.fenn_shysa;
-  sessionStorage.boss = data.boss;
-
-  sessionStorage.sabine_wren = data.sabine_wren;
-  sessionStorage.mara_jade = data.mara_jade;
-  sessionStorage.alpha_17 = data.alpha_17;
-  sessionStorage.omega = data.omega;
-  sessionStorage.kal_skirata = data.kal_skirata;
-  sessionStorage.gallius_rex = data.gallius_rex;
-  sessionStorage.twelfth_brother = data.twelfth_brother;
-  sessionStorage.eli_vanto = data.eli_vanto;
-  sessionStorage.saw_garrera = data.saw_garrera;
-  sessionStorage.wolffe = data.wolffe;
-  sessionStorage.lando_calrissian = data.lando_calrissian;
+  sessionStorage.arye_prays = data.arye_prays;
+  sessionStorage.jango_fett = data.jango_fett;
+  sessionStorage.satele_shan = data.satele_shan;
+  sessionStorage.revan = data.revan;
+  sessionStorage.havok = data.havok;
+  sessionStorage.count_dooku = data.count_dooku;
+  sessionStorage.anakin_skywalker = data.anakin_skywalker;
+  sessionStorage.ahsoka_tano = data.ahsoka_tano;
+  sessionStorage.asharad_hett = data.asharad_hett;
+  sessionStorage.general_grievous = data.general_grievous;
+  sessionStorage.seloth = data.seloth;
+  sessionStorage.mereel_skirata = data.mereel_skirata;
+  sessionStorage.venku_kad_skirata = data.venku_kad_skirata;
+  sessionStorage.quinlan_vos = data.quinlan_vos;
+  sessionStorage.near_farr = data.near_farr;
   sessionStorage.evaarla_mereel = data.evaarla_mereel;
-  sessionStorage.kyle_katarn = data.kyle_katarn;
-  sessionStorage.carnor_jax = data.carnor_jax;
-  sessionStorage.mission_vao = data.mission_vao;
-  sessionStorage.carnor_jax = data.carnor_jax;
-  sessionStorage.x2 = data.x2;
-  sessionStorage.seventh_sister = data.seventh_sister;
-  sessionStorage.jan_ors = data.jan_ors;
-  sessionStorage.scorch = data.scorch;
-  sessionStorage.lumiya = data.lumiya;
-  sessionStorage.rahm_kota = data.rahm_kota;
-  sessionStorage.pellaeon = data.pellaeon;
-  sessionStorage.leia_organa = data.leia_organa;
+  sessionStorage.clarrarifufza = data.clarrarifufza;
+  sessionStorage.elizabeth_persche = data.elizabeth_persche;
+  sessionStorage.darth_vorhn = data.darth_vorhn;
+  sessionStorage.wrecker = data.wrecker;
+  sessionStorage.annalise_dimidium = data.annalise_dimidium;
+  sessionStorage.plo_koon = data.plo_koon;
   sessionStorage.ghos_gin = data.ghos_gin;
-  sessionStorage.janitor = data.janitor;
-  sessionStorage.bo_katan = data.bo_katan;
-  sessionStorage.satele = data.satele;
-  sessionStorage.mothma = data.mothma;
-  sessionStorage.bossk = data.bossk;
-  sessionStorage.snake_zapal = data.snake_zapal;
-  sessionStorage.armstrong = data.armstrong;
-  sessionStorage.death_troopers = data.death_troopers;
-  sessionStorage.nom_carver = data.nom_carver;
-  sessionStorage.samuel_rodrigues = data.samuel_rodrigues;
-  sessionStorage.mandalor_the_unwoke = data.mandalor_the_unwoke;
-  sessionStorage.fox = data.fox;
-  sessionStorage.x_wing = data.x_wing;
-  sessionStorage.tie_fighter = data.tie_fighter;
+  sessionStorage.tallisibeth_enwandung_esterhazy = data.tallisibeth_enwandung_esterhazy;
+  sessionStorage.sevaronurudo = data.sevaronurudo;
+  sessionStorage.a_77_fordo = data.a_77_fordo;
+  sessionStorage.a_07_epsilon = data.a_07_epsilon;
+  sessionStorage.belkrin_priest_wren = data.belkrin_priest_wren;
+  sessionStorage.rc_5704_storm = data.rc_5704_storm;
+  sessionStorage.rc_6008_goober = data.rc_6008_goober;
+  sessionStorage.meisis_zerliss = data.meisis_zerliss;
+  sessionStorage.cc_1359_obsidian = data.cc_1359_obsidian;
+  sessionStorage.dryden_vos = data.dryden_vos;
+  sessionStorage.the_singer = data.the_singer;
+  sessionStorage.cc_5597_jesse = data.cc_5597_jesse;
+  sessionStorage.rc_1025_fuse = data.rc_1025_fuse;
+  sessionStorage.cc_0087_blitz = data.cc_0087_blitz;
+  sessionStorage.daybreak_axis = data.daybreak_axis;
+  sessionStorage.cc_2237_oddball = data.cc_2237_oddball;
+  sessionStorage.dagan_gera = data.dagan_gera;
+  sessionStorage.ct_1614_hasser = data.ct_1614_hasser;
+  sessionStorage.raiden = data.raiden;
+  sessionStorage.cc_1178_sights = data.cc_1178_sights;
+  sessionStorage.cc_1212_twelve = data.cc_1212_twelve;
+  sessionStorage.ty_rell = data.ty_rell;
+  sessionStorage.valire_ameile_tone = data.valire_ameile_tone;
+  sessionStorage.ct_2602_rhino_slayer = data.ct_2602_rhino_slayer;
+  sessionStorage.bb_c03_cothree = data.bb_c03_cothree;
 };
