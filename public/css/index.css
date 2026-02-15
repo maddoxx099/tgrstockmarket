@@ -1080,20 +1080,15 @@ h1 {
   pointer-events: none;
 }
 .stockDiv {
-  width: 180px;
-  height: 95px;
-  margin: 10px 15px;
+  width: 190px;
+  height: 85px;
+  margin: 10px 20px 10px 20px;
   text-align: center;
-  background-color: #f0f9ff;
+  pointer-events: none;
+  background-color: #f0f9ff; /* Light teal tint */
   border-radius: 8px;
-  border: 1px solid #13c290;
-
-  /* wrapping */
-  white-space: normal;
-  word-wrap: break-word;
-  overflow-wrap: break-word;
+  border: 1px solid #13c290; /* JJK teal accent */
 }
-
 .stockDescription {
   margin-top: 0px;
   margin-bottom: 5px;
